@@ -1,0 +1,260 @@
+/*------------------------------------------------------ HEADER ------------------------------------------------------*/
+@media all and (max-width: 1325px) {
+    .header__nav {
+        margin-left: 94px;
+    }
+    .header__aside {
+        padding: 0 2.6%;
+    }
+}
+
+@media all and (max-width: 1305px) {
+    .header__aside {
+        flex-direction: column-reverse;
+        padding: 0 1.6%;
+    }
+    .header__decor-text {
+        display: none;
+    }
+}
+
+@media all and (max-width: 1285px) {
+    .header {
+        padding-top: 20px;
+    }
+    .header__logo-and-nav {
+        padding-bottom: 20px;
+    }
+    .header__nav {
+        margin-left: 6.5%;
+    }
+}
+
+@media all and (max-width: 1270px) {
+    .header__nav {
+        margin-left: 116px;
+    }
+    .header__aside {
+        display: none;
+    }
+    .header__slider {
+        top: 97%;
+        left: 2.1%;
+    }
+}
+
+@media all and (max-width: 1225px) {
+    .header__nav {
+        margin-left: 91px;
+    }
+
+    .header__text {
+        top: 32%;
+    }
+    .header__slider {
+        top: 96%;
+        left: 2.1%;
+    }
+    .header__image {
+        width: 915px;
+    }
+    .header__aside {
+        display: flex;
+        flex-direction: column;
+        padding: 0 2.6%;
+    }
+    .header__decor-text {
+        display: block;
+        top: 12%;
+    }
+}
+
+@media all and (max-width: 1195px) {
+    .header {
+        padding-top: 15px;
+    }
+    .header__content,
+    .header__logo-and-nav {
+        margin-left: 15px;
+    }
+    .header__nav {
+        margin-left: 140px;
+    }
+    .header__aside {
+        padding: 0 3%
+    }
+    .header__decor-text {
+        top: 14.2%;
+    }
+}
+
+@media all and (max-width: 1103px) {
+    .header__image {
+        width: 828px;
+    }
+    .header__decor-text {
+        top: 15.3%;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .header__image {
+        width: 832px;
+    }
+    .header__aside {
+        display: none;
+    }
+}
+@media all and (max-width: 1011px) {
+    .header__image {
+        width: 819px;
+    }
+    .header__aside {
+        display: none;
+    }
+    .header__decor-text {
+        display: none;
+    }
+}
+@media all and (max-width: 924px) {
+    .header {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .header__logo-and-nav {
+        padding: 0 0 30px 0;
+        margin: 0;
+    }
+    .header__content {
+        margin: 0;
+    }
+    .header__logo{
+        display: none;
+    }
+    .header__nav {
+        margin: 0;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.5);
+        z-index: 5;
+    }
+    .header__nav-item {
+        width: 100%;
+        padding: 15px 0;
+        border-bottom: 1px solid #0b0c11;
+    }
+    .header__nav-label {
+        display: block;
+    }
+    .header__nav-item,
+    .header__word_blue {
+        font-size: 8px;
+        letter-spacing: 5px;
+    }
+    .header__text {
+        top: 35.5%
+    }
+    .header-title {
+        padding-top: 14px;
+        font-size: 56px;
+    }
+    .header__qoute {
+        font-size: 14px;
+        color: #717171
+    }
+    .header__slider {
+        display: none;
+    }
+    .header__image {
+        width: 100%;
+        box-shadow: 0 10px 35px 0 rgba(11, 12, 17, 0.2);
+    }
+    .header__aside {
+        display: flex;
+        padding: 0 1.5%;
+        flex-direction: column-reverse;
+    }
+    .header-social-link + .header-social-link {
+        margin-top: 22px;
+    }
+    .header__decor-text {
+        display: none;
+    }
+}
+@media all and (max-width: 887px) {
+    .header {
+        padding: 20px 20px 80px 20px;
+    }
+    .header__aside {
+        display: none;
+    }
+    .header-title {
+        font-size: 54px;
+    }
+    .header__qoute {
+        font-size: 13px;
+    }
+}
+@media all and (max-width: 829px) {
+    .header-title {
+        padding-top: 12px;
+    }
+}
+
+@media all and (max-width: 808px) {
+    .header-title {
+        padding-top: 10px;
+        padding-bottom: 18px;
+        font-size: 52px;
+    }
+}
+
+/*@media all and (max-width: 768px) {*/
+    /*.header {*/
+        /*padding: 15px 15px 80px 15px*/
+    /*}*/
+    /*.header__logo-and-nav,*/
+    /*.header__content {*/
+        /*margin-left: 0;*/
+    /*}*/
+    /*.header__nav {*/
+        /*display: none;*/
+    /*}*/
+    /*.header__text {*/
+        /*top: 10%;*/
+        /*width: 100%;*/
+        /*text-align: center;*/
+        /*z-index: 1;*/
+    /*}*/
+    /*.header-title {*/
+        /*padding-top: 18px;*/
+        /*padding-bottom: 165px;*/
+        /*color: #505050;*/
+    /*}*/
+    /*.header__qoute {*/
+        /*margin: 0 auto;*/
+        /*color: #505050;*/
+    /*}*/
+
+    /*.header__image {*/
+        /*box-shadow: 0 10px 35px 0 rgba(11, 12, 17, 0.2);*/
+    /*}*/
+
+    /*.header__image::after {*/
+        /*position: absolute;*/
+        /*top: 0;*/
+        /*left: 0;*/
+        /*width: 100%;*/
+        /*height: 100%;*/
+        /*content: "";*/
+        /*background-color: rgba(253, 253, 253, 0.8);*/
+        /*z-index: 0;*/
+    /*}*/
+
+    /*.header__slider {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
+/*------------------------------------------------------ HEADER ------------------------------------------------------*/
