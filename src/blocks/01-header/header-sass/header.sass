@@ -2,34 +2,23 @@
   padding-top: 37px
   padding-bottom: 92.5px
 
-.header__logo-and-nav,
-.header__nav
+.header__logo-and-nav
   display: flex
   align-items: baseline
-
-.header__content,
-.header__logo-and-nav
-  margin-left: 107px
-
-.header__logo-and-nav
-  position: relative
   padding-bottom: 45px
-
-.header__nav-checkbox
-  display: none
 
 .header__logo
   display: block
 
 .header__nav
-  position: relative
+  display: flex
   margin-left: 174px
+
+.header__nav-checkbox
+  display: none
 
 .header__nav-label
   display: none
-  position: absolute
-  top: 0
-  left: 0
   width: 18px
 
 .header__nav-burger-layer
@@ -43,19 +32,17 @@
 .header__nav-burger-layer:last-child
   background-color: #5da8ef
 
-.header__nav-item,
-.header__word_blue,
-.header__slider,
-.header__decor-text
-  font-family: "League Spartan-Bold", sans-serif
-  font-size: 9px
-  font-weight: 700
-  text-transform: uppercase
+.header__nav-menu
+  display: flex
 
-.header__nav-item
+.header__nav-menu-item
   padding: 0 19.2px
   letter-spacing: 5.58px
   color: #0b0c11
+
+.header__logo-and-nav,
+.header__content
+  margin-left: 107px
 
 .header__content
   position: relative
@@ -72,7 +59,7 @@
   letter-spacing: 5.4px
   color: #5da8ef
 
-.header-title
+.header__title
   padding: 18px 0
   font-family: "Playfair Display-Bold", sans-serif
   font-size: 62px
@@ -151,3 +138,12 @@
 .social-tumblr
   width: 13px
   margin: 0 auto
+
+.header__nav-menu-item,
+.header__word_blue,
+.header__slider,
+.header__decor-text
+  font-family: "League Spartan-Bold", sans-serif
+  font-size: 9px
+  font-weight: 700
+  text-transform: uppercase
