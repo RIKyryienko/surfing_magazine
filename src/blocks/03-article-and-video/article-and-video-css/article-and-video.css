@@ -16,8 +16,8 @@
 
 .article-and-video__text {
   width: 348px;
-  margin-top: 56px;
-  margin-bottom: 46px;
+  padding-top: 56px;
+  padding-bottom: 46px;
   font-family: "Poppins-Light", sans-serif;
   font-size: 14px;
   font-weight: 300;

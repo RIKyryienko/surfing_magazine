@@ -3,9 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="2d888073-d53d-4af0-86d6-5795063faec0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/01-header/header-css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/01-header/header-css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/02-quote/quote-css/quote.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/02-quote/quote-css/quote.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/02-quote/quote-sass/quote.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/02-quote/quote-sass/quote.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/03-article-and-video/article-and-video-css/article-and-video.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/03-article-and-video/article-and-video-css/article-and-video.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/03-article-and-video/article-and-video-sass/article-and-video.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/03-article-and-video/article-and-video-sass/article-and-video.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/04-surfboards-shop/surfboards-shop-css/surfboards-shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/04-surfboards-shop/surfboards-shop-css/surfboards-shop.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/05-articles/articles-css/articles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/05-articles/articles-css/articles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/06-subscribe/subscribe-css/subscribe.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/06-subscribe/subscribe-css/subscribe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/07-contacts/contacts-css/contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/07-contacts/contacts-css/contacts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/08-footer/footer-css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/08-footer/footer-css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/media/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/media/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,20 +30,38 @@
     <splitter split-orientation="horizontal" split-proportion="0.47291666">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="header.pug" pinned="false" current-in-tab="true">
+          <file leaf-file-name="header.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/blocks/01-header/header-pug/header.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="304">
-                  <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="28" />
+                <state relative-caret-position="360">
+                  <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="751">
-                  <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
+                <state relative-caret-position="1220">
+                  <caret line="146" column="13" selection-start-line="146" selection-start-column="13" selection-end-line="146" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="article-and-video.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/blocks/03-article-and-video/article-and-video-pug/article-and-video.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="44" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="article-and-video.sass" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/blocks/03-article-and-video/article-and-video-sass/article-and-video.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="720">
+                  <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -43,58 +70,9 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="header.sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/blocks/01-header/header-sass/header.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="32">
-                  <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="quote.sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/blocks/02-quote/quote-sass/quote.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="media.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/css/media/media.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="496">
-                  <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="article-and-video.sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/blocks/03-article-and-video/article-and-video-sass/article-and-video.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="352">
-                  <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="surfboards-shop.sass" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/blocks/04-surfboards-shop/surfboards-shop-sass/surfboards-shop.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/index/index.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="304">
-                  <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-                </state>
-              </provider>
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -122,11 +100,9 @@
         <option value="$PROJECT_DIR$/src/blocks/03-media/media-sass/media.sass" />
         <option value="$PROJECT_DIR$/src/blocks/03-media-content/media-content-pug/media-content.pug" />
         <option value="$PROJECT_DIR$/src/blocks/03-media-content/media-content-sass/media-content.sass" />
-        <option value="$PROJECT_DIR$/src/blocks/03-article-and-video/article-and-video-pug/article-and-video.pug" />
         <option value="$PROJECT_DIR$/src/blocks/04-surfboards-shop/surfboards-shop-pug/surfboards-shop.pug" />
         <option value="$PROJECT_DIR$/src/blocks/05-articles/articles-pug/articles.pug" />
         <option value="$PROJECT_DIR$/src/blocks/04-surfboards-shop/surfboards-shop-sass/surfboards-shop.sass" />
-        <option value="$PROJECT_DIR$/src/blocks/03-article-and-video/article-and-video-sass/article-and-video.sass" />
         <option value="$PROJECT_DIR$/src/blocks/06-subscribe/subscribe-pug/subscribe.pug" />
         <option value="$PROJECT_DIR$/src/blocks/06-subscribe/subscribe-sass/subscribe.sass" />
         <option value="$PROJECT_DIR$/src/blocks/07-contacts/contacts-pug/contacts.pug" />
@@ -141,6 +117,8 @@
         <option value="$PROJECT_DIR$/src/blocks/01-header/header-sass/header.sass" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/blocks/02-quote/quote-sass/quote.sass" />
+        <option value="$PROJECT_DIR$/src/blocks/03-article-and-video/article-and-video-sass/article-and-video.sass" />
+        <option value="$PROJECT_DIR$/src/blocks/03-article-and-video/article-and-video-pug/article-and-video.pug" />
         <option value="$PROJECT_DIR$/src/css/media/media.css" />
       </list>
     </option>
@@ -171,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,30 +172,7 @@
               <item name="surfing_magazine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="01-header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="surfing_magazine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="surfing_magazine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="01-header" type="462c0819:PsiDirectoryNode" />
-              <item name="header-pug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="surfing_magazine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="surfing_magazine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="02-quote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="surfing_magazine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="surfing_magazine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="02-quote" type="462c0819:PsiDirectoryNode" />
-              <item name="quote-sass" type="462c0819:PsiDirectoryNode" />
+              <item name="03-article-and-video" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="surfing_magazine" type="b2602c69:ProjectViewProjectNode" />
@@ -226,6 +180,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
               <item name="03-article-and-video" type="462c0819:PsiDirectoryNode" />
+              <item name="article-and-video-pug" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="surfing_magazine" type="b2602c69:ProjectViewProjectNode" />
@@ -239,27 +194,20 @@
               <item name="surfing_magazine" type="b2602c69:ProjectViewProjectNode" />
               <item name="surfing_magazine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="04-surfboards-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="surfing_magazine" type="b2602c69:ProjectViewProjectNode" />
               <item name="surfing_magazine" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="04-surfboards-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="surfboards-shop-sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="surfing_magazine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="surfing_magazine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,26 +242,27 @@
       <workItem from="1541499451034" duration="41705000" />
       <workItem from="1542014356883" duration="16704000" />
       <workItem from="1542353999992" duration="10922000" />
+      <workItem from="1542453558146" duration="10000" />
+      <workItem from="1542453582004" duration="5383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73864000" />
+    <option name="totallyTimeSpent" value="79257000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -330,6 +279,62 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/blocks/01-header/header-pug/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2610">
+          <caret line="145" column="13" lean-forward="true" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/01-header/header-sass/header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/02-quote/quote-sass/quote.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/03-article-and-video/article-and-video-sass/article-and-video.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/04-surfboards-shop/surfboards-shop-sass/surfboards-shop.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/media/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1746">
+          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/01-header/header-pug/header.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -448,13 +453,6 @@
     <entry file="file://$PROJECT_DIR$/src/blocks/03-media/media-sass/media.sass" />
     <entry file="file://$PROJECT_DIR$/src/blocks/03-media-content/media-content-sass/media-content.sass" />
     <entry file="file://$PROJECT_DIR$/src/blocks/03-media-content/media-content-pug/media-content.pug" />
-    <entry file="file://$PROJECT_DIR$/src/blocks/03-article-and-video/article-and-video-pug/article-and-video.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/04-surfboards-shop/surfboards-shop-pug/surfboards-shop.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -541,59 +539,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="342">
           <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/04-surfboards-shop/surfboards-shop-sass/surfboards-shop.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/blocks/03-article-and-video/article-and-video-sass/article-and-video.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="324">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/02-quote/quote-sass/quote.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="324">
           <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/01-header/header-sass/header.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
+        <state relative-caret-position="36">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/01-header/header-pug/header.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="28" />
+        <state relative-caret-position="360">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/03-article-and-video/article-and-video-pug/article-and-video.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blocks/03-article-and-video/article-and-video-sass/article-and-video.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="146" column="13" selection-start-line="146" selection-start-column="13" selection-end-line="146" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/media/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
