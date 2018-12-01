@@ -470,6 +470,9 @@
 /*------------------------------------------------- ARTICLE & VIDEO --------------------------------------------------*/
 
 @media all and (max-width: 1255px) {
+    .article-and-video {
+        padding-bottom: 94px;
+    }
     .article-and-video__text,
     .article-and-video__button {
         margin-left: 4%;
@@ -532,6 +535,9 @@
     }
 }
 @media all and (max-width: 827px) {
+    .article-and-video {
+        padding-bottom: 74px;
+    }
     .article-and-video__content {
         flex-direction: column;
     }
@@ -607,3 +613,65 @@
     }
 }
 /*------------------------------------------------- ARTICLE & VIDEO --------------------------------------------------*/
+
+/*------------------------------------------------- SURFBOARD SHOP --------------------------------------------------*/
+
+@media all and (max-width: 1255px) {
+    .surfboards-shop {
+        padding-top: 94px;
+    }
+}
+@media all and (max-width: 1359px) {
+    .surfboards-shop__shop-item-specs {
+        left: -50px;
+    }
+}
+@media all and (max-width: 1344px) {
+    .surfboards-shop__content {
+        margin-right: 107px;
+        justify-content: space-between;
+    }
+    .surfboards-shop__shop-item {
+        flex-direction: column;
+    }
+    .surfboards-shop__shop-item-specs {
+        position: static;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.76);
+        border-top: 2px solid rgba(155, 155, 155, 0.8);
+    }
+    .surfboards-shop__shop-item-title,
+    .surfboards-shop__shop-item-name,
+    .surfboards-shop__shop-item-button {
+        margin: 0;
+        color: #f5f5f5;
+    }
+    .surfboards-shop__shop-item-name {
+        padding: 10px 0;
+    }
+    .surfboards-shop__shop-item-price {
+        padding-bottom: 20px;
+    }
+    .surfboards-shop__shop-item-price,
+    .surfboards-shop__shop-item-button {
+        margin: 0 auto;
+    }
+}
+@media all and (max-width: 1195px) {
+    .surfboards-shop {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .surfboards-shop__content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 827px) {
+    .surfboards-shop {
+        padding-top: 74px;
+    }
+}
