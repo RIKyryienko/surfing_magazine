@@ -369,6 +369,14 @@
         padding-top: 52.5px;
     }
 }
+
+@media all and (max-width: 887px) {
+    .quote {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
 @media all and (max-width: 829px) {
     .quote {
         padding-top: 42px;
@@ -673,5 +681,19 @@
 @media all and (max-width: 827px) {
     .surfboards-shop {
         padding-top: 74px;
+    }
+}
+
+@media all and (max-width: 781px) {
+    .surfboards-shop__content {
+        justify-content: space-around;
+    }
+    .board-agency {
+        display: none;
+    }
+}
+@media all and (max-width: 530px) {
+    .board-emery {
+        display: none;
     }
 }
