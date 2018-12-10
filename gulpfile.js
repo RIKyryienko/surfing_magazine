@@ -4,44 +4,44 @@ const   gulp        = require('gulp'),
         browserSync = require('browser-sync');
 
 gulp.task('sass', function () {
-   const header = gulp.src('src/blocks/01-header/header-sass/header.sass')
+   const header = gulp.src('src/blocks/header/header-sass/header.sass')
        .pipe(sass())
-       .pipe(gulp.dest('src/blocks/01-header/header-css'))
+       .pipe(gulp.dest('src/blocks/header/header-css'))
        .pipe(browserSync.reload({stream: true}));
 
-   const quote = gulp.src('src/blocks/02-quote/quote-sass/quote.sass')
+   const quote = gulp.src('src/blocks/quote/quote-sass/quote.sass')
        .pipe(sass())
-       .pipe(gulp.dest('src/blocks/02-quote/quote-css'))
+       .pipe(gulp.dest('src/blocks/quote/quote-css'))
        .pipe(browserSync.reload({stream: true}));
 
-   const media = gulp.src('src/blocks/03-article-and-video/article-and-video-sass/article-and-video.sass')
+   const media = gulp.src('src/blocks/article-and-video/article-and-video-sass/article-and-video.sass')
        .pipe(sass())
-       .pipe(gulp.dest('src/blocks/03-article-and-video/article-and-video-css'))
+       .pipe(gulp.dest('src/blocks/article-and-video/article-and-video-css'))
        .pipe(browserSync.reload({stream: true}));
 
-   const surf_shop = gulp.src('src/blocks/04-surfboards-shop/surfboards-shop-sass/surfboards-shop.sass')
+   const surf_shop = gulp.src('src/blocks/surfboards-shop/surfboards-shop-sass/surfboards-shop.sass')
        .pipe(sass())
-       .pipe(gulp.dest('src/blocks/04-surfboards-shop/surfboards-shop-css/'))
+       .pipe(gulp.dest('src/blocks/surfboards-shop/surfboards-shop-css/'))
        .pipe(browserSync.reload({stream: true}));
 
-   const articles = gulp.src('src/blocks/05-articles/articles-sass/articles.sass')
+   const articles = gulp.src('src/blocks/articles/articles-sass/articles.sass')
        .pipe(sass())
-       .pipe(gulp.dest('src/blocks/05-articles/articles-css/'))
+       .pipe(gulp.dest('src/blocks/articles/articles-css/'))
        .pipe(browserSync.reload({stream: true}));
 
-   const subscribe = gulp.src('src/blocks/06-subscribe/subscribe-sass/subscribe.sass')
+   const subscribe = gulp.src('src/blocks/subscribe/subscribe-sass/subscribe.sass')
        .pipe(sass())
-       .pipe(gulp.dest('src/blocks/06-subscribe/subscribe-css/'))
+       .pipe(gulp.dest('src/blocks/subscribe/subscribe-css/'))
        .pipe(browserSync.reload({stream: true}));
 
-   const contacts = gulp.src('src/blocks/07-contacts/contacts-sass/contacts.sass')
+   const contacts = gulp.src('src/blocks/contacts/contacts-sass/contacts.sass')
        .pipe(sass())
-       .pipe(gulp.dest('src/blocks/07-contacts/contacts-css/'))
+       .pipe(gulp.dest('src/blocks/contacts/contacts-css/'))
        .pipe(browserSync.reload({stream: true}));
 
-   const footer = gulp.src('src/blocks/08-footer/footer-sass/footer.sass')
+   const footer = gulp.src('src/blocks/footer/footer-sass/footer.sass')
        .pipe(sass())
-       .pipe(gulp.dest('src/blocks/08-footer/footer-css/'))
+       .pipe(gulp.dest('src/blocks/footer/footer-css/'))
        .pipe(browserSync.reload({stream: true}));
 
    const main_styles = gulp.src('src/sass/main.sass')

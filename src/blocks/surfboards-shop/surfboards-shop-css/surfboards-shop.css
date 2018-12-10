@@ -10,6 +10,16 @@
   display: flex;
   align-items: flex-end; }
 
+.surfboards-shop__word_blue,
+.surfboards-shop__shop-item-button,
+.surfboards-shop__button-show-all {
+  font-family: "League Spartan-Bold", sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5.4px;
+  color: #333333; }
+
 .surfboards-shop__word_blue {
   display: block;
   margin: 0 auto;
@@ -94,13 +104,3 @@
 
 .surfboards-shop__button-show-all span {
   letter-spacing: 0; }
-
-.surfboards-shop__word_blue,
-.surfboards-shop__shop-item-button,
-.surfboards-shop__button-show-all {
-  font-family: "League Spartan-Bold", sans-serif;
-  font-size: 9px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 5.4px;
-  color: #333333; }
