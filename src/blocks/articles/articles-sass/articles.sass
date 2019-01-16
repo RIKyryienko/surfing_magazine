@@ -1,121 +1,115 @@
-.articles
+section
   padding-top: 86px
   padding-bottom: 213px
   background: repeating-linear-gradient(to right, rgba(255, 255, 255, 0.95) 0px, rgba(255, 255, 255, 0.95) 107px, #f5f5f5 107px, #f5f5f5 108px, rgba(255, 255, 255, 0.95) 108px, rgba(255, 255, 255, 0.95) 305px), url("../../../images/backgounds/surfer-bg.jpg") no-repeat
-  background-position-y: -1944%
+  background-position-y: -2003%
 
 article + article
-  margin-top: 120px
+  margin-top: 121px
 
-.articles__content
+.surf-training,
+.point-break
+  display: flex
+
+.surf-training
   margin-left: 107px
 
-.articles__surf-training,
-.articles__point-break
-  position: relative
-  display: flex
+.point-break
   justify-content: center
 
-.articles__surf-training-text,
-.articles__point-break-text
-  width: 341px
+.surf-training__text-area,
+.point-break__text-area
+  position: relative
+  width: 336px
   align-self: center
 
-.articles__surf-training-text
-  margin-left: -88px
+.surf-training__text-area
+  margin-right: 54px
+  margin-left: 68px
 
-.articles__point-break-text
-  margin-left: 78px
-  order: 2
+.point-break__text-area
+  margin-left: 76px
 
-.articles__article-number,
-.articles__button,
-.articles__surf-training-image::after,
-.articles__point-break-image::before
-  font-family: "League Spartan-Bold", sans-serif
-  font-size: 9px
-  font-weight: 700
-  text-transform: uppercase
-  letter-spacing: 5.4px
-  color: #333333
-
-.articles__article-number
+.text-area__article-number
   position: absolute
-  top: 0
-  left: 0
+  top: -17%
+  left: -1%
+  color: #f9f9f9
+  font-family: "League Spartan-Bold", sans-serif
   font-size: 130px
   letter-spacing: 13px
-  color: #f9f9f9
+  z-index: 0
 
-.articles__surf-training-number
-  top: 22px
-  left: 66px
-
-.articles__point-break-number
-  top: 2.3%
-  left: 58.3%
-
-.article__titles
+.text-area__title
   position: relative
-  margin-bottom: 43px
+  color: #333333
   font-family: "Playfair Display-Bold", sans-serif
   font-size: 42px
-  font-weight: 700
+  line-height: 66px
   letter-spacing: 0.42px
-  color: #333333
+  z-index: 1
 
-.articles__first-title-letter
-  padding-bottom: 8px
-  border-bottom: 2px solid #5DA8EF
+.text-area__title::first-letter
+  padding-bottom: 5px
+  border-bottom: 2px solid #5da8ef
 
-.articles__article-summary
-  width: 341px
-  margin-bottom: 65px
-  font-family: "Poppins-Light", sans-serif
+.text-area__article-text
+  padding: 34px 0 67px 0
+  color: #616161
+  font-family: Poppins-Light, sans-serif
   font-size: 14px
-  font-weight: 300
   line-height: 24px
   letter-spacing: 0.35px
-  color: #616161
 
-.articles__button
-  padding-bottom: 8px
-  border-bottom: 2px solid #5DA8EF
+.text-area__btn
+  padding-bottom: 10px
+  color: #333333
+  font-family: "League Spartan-Bold", sans-serif
+  font-size: 9px
+  text-transform: uppercase
+  letter-spacing: 5.4px
+  border-bottom: 2px solid #5da8ef
 
-.articles__last-button-letter
-  letter-spacing: 0
-
-.articles__surf-training-image
+.surf-training__image-area,
+.point-break__image-area
   position: relative
-  left: 46px
+  display: flex
 
-.articles__surf-training-image::after,
-.articles__point-break-image::before
+.surf-training__image-area p,
+.point-break__image-area p
   position: absolute
-  left: 0
   top: 0
-  content: "Surf Camps"
+  left: 0
+  width: 10px
   transform: rotate(-90deg)
-  white-space: nowrap
   color: #cececf
+  font-family: "League Spartan-Bold", sans-serif
+  font-size: 9px
+  text-transform: uppercase
+  white-space: nowrap
+  letter-spacing: 5.4px
 
-.articles__surf-training-image::after
-  left: 96%
-  top: 11%
+.surf-training__image-area p
+  left: 102.5%
+  top: 23%
 
-.articles__point-break-image::before
-  top: 11%
-  left: 9.9%
+.point-break__image-area p
+  left: -5.5%
+  top: 23%
 
-.articles__point-break::after
-  position: absolute
-  top: 125.3%
-  left: 45.6%
-  content: ""
-  width: 1px
-  height: 100px
-  border: 1px solid #5da8ef
-  background-color: #5da8ef
-
-.articles__point-break-image
+.point-break__text-area
   order: 1
+
+.point-break__image-area
+  margin-left: 7.5%
+  order: 0
+
+.surf-training-image
+  width: 762px
+
+.point-break-image
+  width: 489px
+  order: 1
+
+.point-break__image-area p
+  order: 0
