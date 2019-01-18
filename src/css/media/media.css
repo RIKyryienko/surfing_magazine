@@ -692,8 +692,82 @@
         display: none;
     }
 }
+
+@media all and (max-width: 768px) {
+    .surfboards-shop {
+        padding-bottom: 40px;
+    }
+}
+
 @media all and (max-width: 530px) {
     .board-emery {
         display: none;
     }
+}
+/*------------------------------------------------- SURFBOARD SHOP --------------------------------------------------*/
+
+/*---------------------------------------------------- ARTICLE ------------------------------------------------------*/
+
+@media all and (max-width: 1024px) {
+    .surf-training__text-area {
+        margin-left: 0;
+        margin-right: 36px;
+    }
+    .point-break__text-area {
+        margin-left: 62px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .text-area__article-number {
+        font-size: 100px;
+    }
+    .text-area__title {
+        font-size: 35px;
+    }
+    .text-area__article-text {
+        padding: 22px 0 26px 0;
+        font-size: 12px;
+    }
+    article + article {
+        margin-top: 65px;
+    }
+    .articles {
+        padding-top: 40px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .surf-training {
+        margin-left: 0;
+        padding-left: 15px;
+    }
+    .point-break {
+        padding-right: 15px;
+    }
+    .surf-training__image-area p {
+        display: none;
+    }
+    .point-break__text-area {
+        margin-left: 36px;
+    }
+    .point-break__image-area {
+        margin-left: 0;
+    }
+    .surf-training__image-area p {
+        display: none;
+    }
+    .text-area__article-number {
+        top: -11%;
+    }
+    .text-area__btn {
+        font-size: 8px;
+    }
+}
+
+@media all and (max-width: 425px) {
+
+}
+
+@media all and (max-width: 375px) {
+    
 }
