@@ -544,7 +544,7 @@
 }
 @media all and (max-width: 827px) {
     .article-and-video {
-        padding-bottom: 74px;
+        padding-bottom: 55px;
     }
     .article-and-video__content {
         flex-direction: column;
@@ -602,8 +602,11 @@
     .article-and-video__text {
         width: 100%;
         font-size: 12px;
+        padding: 10px 0;
+        padding-bottom: 30px;
     }
     .article-and-video__button {
+        margin: 0 auto;
         font-size: 8px;
     }
     .article-and-video__video {
@@ -680,7 +683,7 @@
 
 @media all and (max-width: 827px) {
     .surfboards-shop {
-        padding-top: 74px;
+        padding-top: 55px;
     }
 }
 
@@ -706,7 +709,7 @@
 }
 /*------------------------------------------------- SURFBOARD SHOP --------------------------------------------------*/
 
-/*---------------------------------------------------- ARTICLE ------------------------------------------------------*/
+/*---------------------------------------------------- ARTICLES ------------------------------------------------------*/
 
 @media all and (max-width: 1024px) {
     .surf-training__text-area {
@@ -719,6 +722,9 @@
 }
 
 @media all and (max-width: 768px) {
+    .articles {
+        padding-bottom: 128px;
+    }
     .text-area__article-number {
         font-size: 100px;
     }
@@ -765,9 +771,48 @@
 }
 
 @media all and (max-width: 425px) {
-
+    .articles {
+        padding-bottom: 84px;
+    }
+    .surf-training,
+    .point-break {
+        padding: 0 15px;
+        flex-direction: column;
+    }
+    .surf-training__text-area,
+    .point-break__text-area {
+        width: 100%;
+    }
+    .surf-training__text-area {
+        align-self: auto;
+        order: 1;
+    }
+    .point-break__text-area {
+        align-self: auto;
+        margin-left: 0;
+    }
+    .point-break__image-area p {
+        display: none;
+    }
+    .text-area__title {
+        font-size: 32px;
+        line-height: 1.8;
+    }
+    .text-area__article-number {
+        display: none;
+    }
+    .text-area__article-text {
+        padding: 10px 0;
+        padding-bottom: 30px;
+    }
+    .text-area__btn {
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 @media all and (max-width: 375px) {
-    
+    .articles {
+        padding-bottom: 52px;
+    }
 }
